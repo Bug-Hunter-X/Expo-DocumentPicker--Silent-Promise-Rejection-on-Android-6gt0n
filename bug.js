@@ -1,0 +1,1 @@
+This bug occurs when using the Expo DocumentPicker API on Android.  Sometimes, the promise returned by DocumentPicker.getDocumentAsync() rejects without providing a clear error message. This makes debugging very difficult. The app just hangs. The issue seems to be intermittent and not consistently reproducible across devices.
